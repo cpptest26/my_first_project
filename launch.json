@@ -1,0 +1,14 @@
+{"version":"0.2.0",
+    "configurations": [ 
+    {"type":"lldb",
+    "request":"launch",
+    "name":"Launch",
+    "program":"$TEST_C/${fileBasenameNoExtension}.out",
+    "args": [],
+    "preLaunchTask":"g++ build active file",
+    "stdio": ["${fileDirname}/sample_input.txt","${fileDirname}/sample_output.txt",null],
+    "terminal":"integrated"
+        }
+    ] 
+ }
+    
